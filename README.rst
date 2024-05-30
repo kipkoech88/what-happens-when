@@ -170,6 +170,14 @@ Parse URL
 
     - ``Protocol``  "http"
         Use 'Hyper Text Transfer Protocol'
+    - ``subdomain`` "www"
+    - ``Domain`` "google"
+    - ``TLD(top-level domain)`` "com"
+        Use ``.com`` TLD server
+    - ``port``
+       HTTP default port is 80 and will used automatically if
+       the user does not specify the port. For HTTPS (secure version of HTTP), the default
+       port is 443
 
     - ``Resource``  "/"
         Retrieve main (index) page
